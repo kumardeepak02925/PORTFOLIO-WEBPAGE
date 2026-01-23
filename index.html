@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepak Kumar - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <!-- Background Canvas for TubesCursor Effect -->
+    <canvas id="canvas"></canvas>
+
+    <!-- Navigation -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Deepak <span>Kumar</span></a>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="resume.pdf" download target="_blank"><i class="fas fa-file-pdf"></i> Resume</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-image">
+                    <img src="WhatsApp Image 2025-12-14 at 5.31.22 PM.jpeg" alt="Deepak Kumar - Profile Photo">
+                </div>
+                <div class="hero-text">
+                    <h1>Deepak <span class="highlight">Kumar</span></h1>
+                    <p>AI & DevOps Engineering Student</p>
+                    <p>Building intelligent systems and secure software solutions with expertise in AI, backend development, and DevOps practices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="main-content">
+            <!-- Left Sidebar -->
+            <aside class="sidebar">
+                <section id="about">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="about-info">
+                        <p>A motivated B.Tech student specializing in Computer Science and Artificial Intelligence. I focus on applying machine learning and robust software engineering to solve real-world problems, with a strong interest in secure system design.</p>
+
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>deepak.kumar@example.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+919905709638</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>New Delhi, India</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-language"></i>
+                            <span>English (Professional), Hindi (Native)</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="skills">
+                    <h2 class="section-title">Skills & Expertise</h2>
+                    <div class="skills-container">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">C Programming</span>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Python (AI/ML)</span>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">DevOps</span>
+                                <span class="skill-percent">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">JavaScript / Node.js</span>
+                                <span class="skill-percent">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git/GitHub</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Mongodb</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">ExpressJS</span>
+                            <span class="skill-tag">Linux</span>
+                            <span class="skill-tag">System Security</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">React.js</span>
+                            <span class="skill-tag">JSP</span>
+                        </div>
+                    </div>
+                </section>
+            </aside>
+
+            <!-- Right Content -->
+            <main class="content">
+                <section id="projects">
+                    <h2 class="section-title">My Projects</h2>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-content">
+                                <h3 class="project-title">Facial Recognition Attendance System</h3>
+                                <p class="project-description">An automated system that uses computer vision to identify individuals and record attendance in real-time, improving accuracy and efficiency over manual methods.</p>
+                                <div class="project-tags">
+                                    <span class="project-tag">Python</span>
+                                    <span class="project-tag">OpenCV</span>
+                                    <span class="project-tag">Streamlit</span>
+                                    <span class="project-tag">MySQL</span>
+                                    <span class="project-tag">Computer Vision</span>
+                                    <span class="project-tag">tkinter</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-content">
+                                <h3 class="project-title">Smart Tourist Secure Incident Response System</h3>
+                                <p class="project-description">A safety application for tourists that uses location data and AI-based anomaly detection to identify potential incidents and automate alerts to emergency contacts and local authorities.</p>
+                                <div class="project-tags">
+                                    <span class="project-tag">twilo</span>
+                                    <span class="project-tag">ExpressJS</span>
+                                    <span class="project-tag">React.js</span>
+                                    <span class="project-tag">Node.js</span>
+                                    <span class="project-tag">System Security</span>
+                                    <span class="project-tag">APIs</span>
+                                    <span class="project-tag">Blockchain</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experience">
+                    <h2 class="section-title">Experience & Education</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="timeline-period">2024 - Present</span>
+                            <h3 class="timeline-title">AI & DevOps Project Developer</h3>
+                            <p class="timeline-subtitle">University R&D Wing</p>
+                            <p>Developed and deployed machine learning models; implemented CI/CD pipelines for automated testing and deployment of projects including the Facial Recognition Attendance System.</p>
+                        </div>
+
+                        <div class="timeline-item">
+                            <span class="timeline-period">2022 - 2026</span>
+                            <h3 class="timeline-title">Bachelor of Technology (B.Tech)</h3>
+                            <p class="timeline-subtitle">Computer Science and Engineering (Artificial Intelligence)</p>
+                            <p>ABES Institute of Technology, Ghaziabad</p>
+                        </div>
+
+                        <div class="timeline-item">
+                            <span class="timeline-period">2020 - 2022</span>
+                            <h3 class="timeline-title">Intermediate Education</h3>
+                            <p class="timeline-subtitle">Science Stream (PCM)</p>
+                            <p>Rajendra collage chhapra saran</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="achievements">
+                    <h2 class="section-title">Key Achievements</h2>
+                    <div class="achievements-list">
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>Project Excellence Award</h4>
+                                <p>Successfully deployed the Facial Recognition Attendance System for a departmental pilot, reducing manual entry time by 70%.</p>
+                            </div>
+                        </div>
+
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>Technical Certifications</h4>
+                                <p>Completed certified courses in Advanced Java Programming, DevOps Fundamentals, and AI with Python.</p>
+                            </div>
+                        </div>
+
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>Hackathon Finalist</h4>
+                                <p>Reached finals in Smart India Hackathon 2025 with the Smart Tourist Secure Incident Response System prototype.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3>Deepak Kumar</h3>
+                <p>AI & DevOps Engineering Student</p>
+                <div class="social-links">
+                    <a href="https://github.com/kumardeepak02925" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/deepak-kumar-00731a298/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="mailto:deepak.kumar@example.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                </div>
+                <p class="copyright">© 2025 Deepak Kumar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+
+    <!-- TubesCursor Background Effect -->
+    <script type="module">
+        // Licence CC BY-NC-SA 4.0
+        // Attribution — You must give appropriate credit.
+        // Non Commercial — You may not use the material for commercial purposes.
+
+        import TubesCursor from "https://cdn.jsdelivr.net/npm/threejs-components@0.0.19/build/cursors/tubes1.min.js"
+
+        const app = TubesCursor(document.getElementById('canvas'), {
+          tubes: {
+            colors: ["#f967fb", "#53bc28", "#6958d5"],
+            lights: {
+              intensity: 150,
+              colors: ["#83f36e", "#fe8a2e", "#ff008a", "#60aed5"]
+            }
+          }
+        })
+
+        // Optional: Change colors on click
+        document.body.addEventListener('click', () => {
+          const colors = randomColors(3)
+          const lightsColors = randomColors(4)
+          app.tubes.setColors(colors)
+          app.tubes.setLightsColors(lightsColors)
+        })
+
+        function randomColors (count) {
+            return new Array(count)
+                .fill(0)
+                .map(() => "#" + Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0'))
+        }
+    </script>
+</body>
+</html>
