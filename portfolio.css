@@ -240,6 +240,13 @@ header {
     border-radius: 5px;
 }
 
+.skill-description {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    line-height: 1.4;
+}
+
 .skill-tags {
     display: flex;
     flex-wrap: wrap;
@@ -394,6 +401,99 @@ header {
 .achievement-content p {
     color: var(--gray-color);
     font-size: 0.95rem;
+}
+
+/* Certifications */
+.certifications-list {
+    margin-top: 25px;
+}
+
+.certification-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.certification-item:last-child {
+    border-bottom: none;
+}
+
+.certification-icon {
+    background-color: #dbeafe;
+    color: var(--primary-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.certification-content h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--dark-color);
+    margin-bottom: 5px;
+}
+
+.certification-content .certification-issuer {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+
+.certification-content p {
+    color: var(--gray-color);
+    font-size: 0.95rem;
+}
+
+/* Resume Section */
+.resume-container {
+    margin-top: 25px;
+}
+
+.resume-content {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #f8fafc;
+    border-radius: 10px;
+    border: 2px dashed var(--border-color);
+}
+
+.resume-content p {
+    color: var(--gray-color);
+    margin-bottom: 25px;
+    font-size: 1rem;
+}
+
+.resume-download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.3);
+}
+
+.resume-download-btn:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px -2px rgba(37, 99, 235, 0.4);
+}
+
+.resume-download-btn i {
+    font-size: 1.1rem;
 }
 
 /* Footer */
