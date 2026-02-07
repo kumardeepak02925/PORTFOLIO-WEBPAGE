@@ -1,11 +1,3 @@
-# Portfolio Project
+# Portfolio
 
-Welcome to my portfolio! This is a showcase of my work and projects.
-
-## Live Link
-
-You can view my portfolio live at: [My Portfolio](https://your-portfolio-link.com)
-
-## Project Description
-
-This is a brief description of the portfolio project, highlighting its features and purpose.
+This is my personal portfolio webpage. You can view the live version at: https://portfolio-web-xdsc.onrender.com/
